@@ -1,26 +1,33 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+这是一个ionic的项目
 
-## How to use this template
-
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
-
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
+## 安装项目运行环境
+### 1、安装node环境，网路上关于安装node的教程很多，这里不详述
+### 2、安装ionic
 ```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
+npm install -g ionic
 ```
-
-Then, to run it, cd into `myTabs` and run:
-
+安装完成后查看版本号
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+ionic -version
 ```
-
-Substitute ios for android if not on a Mac.
-
+### 3、安装cordova
+cordova负责项目的打包，编译等
+```bash
+npm install -g cordova
+```
+安装完成后查看版本号
+```bash
+cordova -version
+```
+### 4、clone项目
+```bash
+git clone https://github.com/DevHuangjb/Appstream_ionic.git
+```
+切换到项目根目录然后运行：
+```bash
+npm install
+```
+运行项目到浏览器：
+```bash
+ionic serve
+```
