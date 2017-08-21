@@ -1,0 +1,148 @@
+page-profile {
+  .navBar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index:1000;
+  }
+
+  .header-parent{
+    text-align: center;
+  }
+
+  .header-social{
+
+    bottom: 0px;
+    text-align: center;
+    margin-top: -5.5vh;
+  }
+
+  .profile{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: -32vh;
+    overflow: hidden;
+    border-radius: 50px;
+  }
+
+  .avatar{
+    min-width: 100px;
+    min-height: 100px;
+    display: block;
+    vertical-align: middle;
+  }
+
+  .title-name{
+    color: white;
+  }
+
+  .location-icon{
+    color: white;
+    font-size: 18px;
+    float: right;
+  }
+
+  .counter{
+    text-align:center;
+    margin-top: 6.5vh;
+    margin-left:1vw;
+  }
+
+  .numbers{
+    font-family:OpenSans;
+    color:#323e46;
+    font-size: 20px;
+  }
+
+  .numbers-title{
+    font-family: OpenSans;
+    color: #b7c4cb;
+    font-size: 16px;
+    margin-top: -3vh;
+  }
+  .rednumbers-title{
+    font-family: OpenSans;
+    color: green;
+    font-size: 16px;
+    margin-top: -3vh;
+  }
+
+  .location{
+    font-size: 16px;
+    font-family: OpenSans;
+    color: white;
+    float: left;
+  }
+
+  .profile-location{
+    margin-top: -4.8vh;
+    margin-right: 36vw;
+  }
+
+  .slides{
+    max-height:20%;
+    background-color:#f7f8fa;
+  }
+
+  .slide-image{
+    width:75%;
+  }
+
+  .toolContainer{
+    border-right: 1px solid rgb(222,222,222);
+    height: 35px;
+  }
+
+  .toolIcon{
+    font-size: 20px;
+    color:rgba(200,200,200,1);
+    margin-top: 8px;
+  }
+
+  .toolText{
+    font-size: 15px;
+    color:rgba(51,51,51,1);
+    padding: 0px 5px;
+    font-family:OpenSans;
+  }
+
+  .share-numbers{
+    font-family:OpenSans;
+    color:#0091ea;
+    font-size:16px;
+    margin-top: -6vh;
+  }
+
+  .toast-container{
+    background-color: white;
+  }
+
+  .maskDiv{
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+
+  .no-scroll{
+    overflow: hidden;
+  }
+  .en-scroll{
+    overflow: auto;
+  }
+
+
+
+  ion-header {
+    transition: top 1000ms cubic-bezier(.19, 1.12, .65, .91) !important;
+  }
+
+  .headanimate {
+    top: -90px;
+  }
+
+}
+

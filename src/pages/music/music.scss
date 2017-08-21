@@ -1,0 +1,53 @@
+page-about {
+  .right{
+    float: right;
+    margin-top: -37px;
+  }
+  .tracks{
+    font-family: OpenSans;
+    font-size: 14px;
+    color: #67c4cb;
+    margin-top: -10px;
+  }
+
+  .box{
+    position: relative;
+  }
+
+  .player{
+    position: absolute;
+    left: 33vw;
+    top:5.5vh;
+  }
+
+  .play{
+    margin-top: 1.5vh;
+  }
+
+  .play-menu{
+    float: right;
+    margin-top: 2.2vh;
+    width: 7%;
+    height: auto;
+  }
+
+  .playing{
+    position: absolute;
+    left: 10vw;
+    top: 2vh;
+  }
+
+  .maintitle{
+    font-family: OpenSans;
+    font-size: 14px;
+    color: #1c252a;
+    margin-top: -10px;
+  }
+
+  .subtitle{
+    font-family: OpenSans;
+    font-size: 9px;
+    color: #b7c4cb;
+    margin-top: -12px;
+  }
+}

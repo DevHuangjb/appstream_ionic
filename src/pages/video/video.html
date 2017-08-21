@@ -1,0 +1,30 @@
+<ion-header no-border>
+  <ion-navbar color="tabscolor">
+    <ion-title>Videos</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="bg_color">
+
+  <img *ngFor="let imageUrl of images" src="{{imageUrl}}" style="display: block" (tap)="imageClick()">
+
+  <ion-infinite-scroll
+    (ionInfinite)="doInfinite($event)"
+    #infiniteScroll
+  >
+  <div style="text-align: center">
+
+    <div [ngSwitch] = 'noMoreData'>
+      <div *ngSwitchCase="true">
+        <b>已经加载完毕</b>
+      </div>
+      <div *ngSwitchCase="false">
+        <ion-spinner name="bubbles" color="danger"></ion-spinner>
+        <b style="position: relative;bottom: 8px;left: 10px">正在努力加载中...</b>
+      </div>
+    </div>
+
+  </div>
+  </ion-infinite-scroll>
+
+</ion-content>

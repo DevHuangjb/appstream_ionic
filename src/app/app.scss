@@ -14,3 +14,26 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+@font-face {
+  font-family: BalooBhai;
+  src: url('../assets/fonts/BalooBhai.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url('../assets/fonts/Open-sans.woff2') format('woff2');
+}
+
+*{
+  font-family: BalooBhai;
+}
+
+.no-scroll {
+  .scroll-content {
+    overflow: hidden !important;
+  }
+}
+
+.bg_color{
+  background-color: rgb(230,230,230);
+}

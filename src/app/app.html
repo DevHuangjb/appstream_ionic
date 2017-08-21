@@ -1,1 +1,96 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-menu [content]="content" type="overlay" >
+
+  <ion-content padding>
+    <ion-grid no-padding style="margin-top: 4vh">
+
+      <ion-row align-items-end>
+        <ion-col col-auto>
+          <img src="assets/img/menu-avatar.png" style="width: 50%">
+        </ion-col>
+
+        <ion-col col-auto style="margin-left: -8vw">
+          <h6>Joes Erickson</h6>
+          <p style="font-family: OpenSans;font-size: 12px;color: #758692;margin-top: -1.5vh">
+            Indonesia
+          </p>
+        </ion-col>
+      </ion-row>
+
+      <ion-row align-items-center padding style="margin-top: 4vh">
+        <ion-col col-auto>
+          <img src="assets/img/pin.png" style="width: 50%">
+        </ion-col>
+
+        <ion-col col-auto style="margin-left: 4vw">
+          <p style="font-family: OpenSans;font-size: 20px;letter-spacing: 0.5px;color: #1c252a;margin-top: 1.5vh">
+            Home Page
+          </p>
+        </ion-col>
+      </ion-row>
+
+      <ion-row align-items-center padding style="margin-top: -4vh">
+        <ion-col col-auto>
+          <img src="assets/img/playlist.png" style="width: 50%">
+        </ion-col>
+
+        <ion-col col-auto style="margin-left: 4vw">
+          <p style="font-family: OpenSans;font-size: 20px;letter-spacing: 0.5px;color: #1c252a;margin-top: 1.5vh">
+            Playlist
+          </p>
+        </ion-col>
+      </ion-row>
+
+      <ion-row align-items-center padding style="margin-top: -4vh">
+        <ion-col col-auto>
+          <img src="assets/img/channels.png" style="width: 50%">
+        </ion-col>
+
+        <ion-col col-auto style="margin-left: 4vw">
+          <p style="font-family: OpenSans;font-size: 20px;letter-spacing: 0.5px;color: #1c252a;margin-top: 1.5vh">
+            Channels
+          </p>
+        </ion-col>
+      </ion-row>
+
+      <ion-row align-items-center padding style="margin-top: -4vh">
+        <ion-col col-auto>
+          <img src="assets/img/library.png" style="width: 50%">
+        </ion-col>
+
+        <ion-col col-auto style="margin-left: 4vw">
+          <p style="font-family: OpenSans;font-size: 20px;letter-spacing: 0.5px;color: #1c252a;margin-top: 1.5vh">
+            My Library
+          </p>
+        </ion-col>
+      </ion-row>
+
+      <ion-row align-items-center padding style="margin-top: -4vh">
+        <ion-col col-auto>
+          <img src="assets/img/download.png" style="width: 50%">
+        </ion-col>
+
+        <ion-col col-auto style="margin-left: 4vw">
+          <p style="font-family: OpenSans;font-size: 20px;letter-spacing: 0.5px;color: #1c252a;margin-top: 1.5vh">
+            Download
+          </p>
+        </ion-col>
+      </ion-row>
+
+      <ion-row align-items-center padding style="margin-top: -4vh">
+        <ion-col col-auto>
+          <img src="assets/img/logout.png" style="width: 50%">
+        </ion-col>
+
+        <ion-col col-auto style="margin-left: 4vw">
+          <p style="font-family: OpenSans;font-size: 20px;letter-spacing: 0.5px;color: #1c252a;margin-top: 1.5vh">
+            Sign-Out
+          </p>
+        </ion-col>
+      </ion-row>
+
+    </ion-grid>
+  </ion-content>
+
+</ion-menu>
+
+<ion-nav [root]="rootPage" #content></ion-nav>

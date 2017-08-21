@@ -1,0 +1,221 @@
+page-contact {
+
+  .header-image {
+    background-image: url('../assets/img/newsfeed.jpg');
+    height: 50vh;
+  }
+
+  .main-content {
+    padding: 20px;
+    background-color: white;
+  }
+
+  .scroll-content {
+    padding-top: 0 !important;
+  }
+
+  //ion-header {
+  //  -webkit-backdrop-filter: blur(8px);
+  //}
+  //
+  //ion-navbar {
+  //  opacity: 0.4;
+  //  box-shadow: 0px 1px 13px 1px rgba(0, 0, 0, 0.77);
+  //}
+
+
+  .news-box {
+    padding-top: 10px;
+    position: relative;
+    top: 2vh;
+    padding-bottom: 10px;
+  }
+
+  .images {
+    width: 32%;
+  }
+
+  .detail {
+    font-family: open-sans;
+  }
+
+  .details {
+    position: absolute;
+    left: 33vw;
+    top: -0.4vh;
+    font-family: open-sans;
+  }
+
+  .avatar {
+    position: absolute;
+    left: 33vw;
+    margin-top: -37px;
+    width: 7%;
+  }
+
+  .blog {
+    position: absolute;
+    font-family: open-sans;
+    font-size: 12px;
+    color: map-get($colors, primary) !important;
+    margin-top: -34px;
+    left: 41vw;
+  }
+
+  .tag {
+    // position: absolute;
+    font-family: open-sans;
+    color: #b7c4cb;
+    float: right;
+    font-size: 14px;
+    margin-top: -35px;
+  }
+
+  .pink-panther {
+    position: relative;
+    top: 1vh;
+    padding-bottom: 50px;
+  }
+
+  .avatar02 {
+    float: left;
+    margin-top: 5px;
+    width: 7%;
+  }
+
+  .blog02 {
+    position: absolute;
+    font-family: open-sans;
+    font-size: 12px;
+    color: map-get($colors, primary) !important;
+    margin-top: 9px;
+    left: 10vw;
+  }
+
+  .tag02 {
+    // position: absolute;
+    font-family: open-sans;
+    color: #b7c4cb;
+    float: right;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .avatar03 {
+    float: left;
+    margin-top: 5px;
+    width: 7%;
+  }
+
+  .blog03 {
+    position: absolute;
+    font-family: open-sans;
+    font-size: 12px;
+    color: map-get($colors, primary) !important;
+    margin-top: 9px;
+    left: 10vw;
+  }
+
+  .tag03 {
+    // position: absolute;
+    font-family: open-sans;
+    color: #b7c4cb;
+    float: right;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .grid {
+    background-color: #f7f8fa;
+    padding: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .russian {
+    padding-bottom: 40px;
+  }
+
+  .blog04 {
+    position: absolute;
+    font-family: open-sans;
+    font-size: 12px;
+    color: map-get($colors, primary) !important;
+    margin-top: 9px;
+    left: 15vw;
+  }
+
+  .beach-box {
+    position: relative;
+    top: 3vh;
+    padding-bottom: 30px;
+  }
+
+  .shanti {
+    position: relative;
+    top: 1vh;
+    padding-bottom: 90px;
+  }
+
+  .avatar04 {
+    float: left;
+    margin-top: 1px;
+    width: 7%;
+  }
+
+  .blog05 {
+    position: absolute;
+    font-family: open-sans;
+    font-size: 12px;
+    color: map-get($colors, primary) !important;
+    margin-top: 4px;
+    left: 9vw;
+  }
+
+  .tag04 {
+    // position: absolute;
+    font-family: open-sans;
+    color: #b7c4cb;
+    float: right;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .dot {
+    position: absolute;
+    font-size: 10px;
+    margin-top: -30px;
+    right: 16vw;
+  }
+
+  .dot02 {
+    position: absolute;
+    font-size: 10px;
+    margin-top: 10px;
+    right: 16vw;
+  }
+
+  .dot03 {
+    position: absolute;
+    font-size: 10px;
+    margin-top: 10px;
+    right: 16vw;
+  }
+
+  .dot04 {
+    position: absolute;
+    font-size: 10px;
+    margin-top: 10px;
+    right: 22vw;
+  }
+
+  .dot05 {
+    position: absolute;
+    font-size: 10px;
+    margin-top: 10px;
+    right: 16vw;
+  }
+
+
+
+}
