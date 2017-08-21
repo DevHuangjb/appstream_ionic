@@ -1,5 +1,5 @@
 这是一个ionic的项目
-
+![image](https://github.com/DevHuangjb/appstream_ionic/blob/master/screenshot/screenshot1.gif)
 ## 安装项目运行环境
 ### 1、安装node环境，网路上关于安装node的教程很多，这里不详述
 ### 2、安装ionic
